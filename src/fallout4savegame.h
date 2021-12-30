@@ -3,7 +3,7 @@
 
 #include "gamebryosavegame.h"
 
-#include <Windows.h>
+//#include <Windows.h>
 
 class GameFallout4;
 
@@ -15,13 +15,13 @@ public:
 protected:
 
   // Fetch easy-to-access information.
-  void fetchInformationFields(
-    FileWrapper& file,
-    unsigned long& saveNumber,
-    QString& playerName,
-    unsigned short& playerLevel,
-    QString& playerLocation,
-    FILETIME& creationTime) const;
+//  void fetchInformationFields(
+//    FileWrapper& file,
+//    unsigned long& saveNumber,
+//    QString& playerName,
+//    unsigned short& playerLevel,
+//    QString& playerLocation,
+//    FILETIME& creationTime) const;
 
   std::unique_ptr<DataFields> fetchDataFields() const override;
 };

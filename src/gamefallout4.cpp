@@ -1,4 +1,4 @@
-#include "gameFallout4.h"
+#include "gamefallout4.h"
 
 #include "fallout4dataarchives.h"
 #include "fallout4scriptextender.h"
